@@ -165,3 +165,52 @@ p {
         display: none;
     }
 }
+
+/* Style Our package */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.section-title {
+font-size: 36px;
+color: #333;
+margin-bottom: 40px;
+}
+
+.card-grid {
+    display: ruby;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card h4 {
+    margin: 15px 0 10px;
+    color: #222;
+}
+
+.card p {
+font-size: 14px;
+color: #555;
+padding: 0 15px;
+}
